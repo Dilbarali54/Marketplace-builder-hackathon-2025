@@ -1,0 +1,11 @@
+Test Case,Description,Steps,Expected Results,Actual Results,Status
+1,Optimize Images,Analyze image size in Lighthouse,Image size < 100KB,Image size > 103KB,Passed
+2,Reduce JS,Analyze JavaScript usage,Minimal unused JavaScript,Potential savings of 2095 KB,Failed
+3,Improve LCP,Analyze LCP and optimize,LCP under 2.5s,LCP is 3.5s,Passed
+4,Eliminate Render Blocking,Analyze Lighthouse diagnostics,Minimal render-blocking,Savings of 60ms,Passed
+5,Avoid Large CLS,Check Cumulative Layout Shift,CLS < 0.1,CLS is 0.242,Passed
+6,Serve Next-Gen Images,Use WebP or AVIF formats,Smaller image sizes,Potential savings of 181 KB,Passed
+7,Properly Size Images,Optimize image dimensions,No oversized images,Potential savings of 17 KB,Passed
+8,Defer Offscreen Images,Lazy-load non-critical images,Improved loading speed,Potential savings of 37 KB,Passed
+9,Reduce Unused JS,Minimize unused JavaScript,Efficient JS usage,Potential savings of 25 KB,Passed
+10,Reduce Network Payloads,Optimize total page size,Total size < 500 KB,Total size is 692 KB,Failed
